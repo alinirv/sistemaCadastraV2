@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saber+</title>
+    <link rel="stylesheet" href="/css/bulma.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title is-1">Saber+</h1>
+    </header>
+
+    </div>
+    <div class="container">
+        <form action="/authentication/authenticate" id="formulario" method="POST">
+            <h2 class="title">Login</h2>
+            <section>
+                <label for="usuario">Usuário:</label>
+                <input type="text" class="input is-primary" id="usuario" name="username"
+                placeholder="Usuario" autofocus="autofocus"><br>
+            </section>
+            <section>
+                <label for="senha">Senha:</label>
+                <input type="password" class="input is-primary" id="senha" name="password"
+                placeholder="Senha" autofocus="autofocus"><br>
+            </section>
+            <div class="wrapper">
+                <button type="submit" class="button is-primary">Logar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Instituto Saber+. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+* {
+  font-family: sans-serif; /* Change your font family */
+
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background:#E9E9E9; 
+}
+hr.linhaSep {
+  border-top: 5px solid burlywood;
+=======
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+<<<<<<< HEAD
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #004AAD;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+td {
+  text-align: center;
+}
+
+td img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: #ffff;
+=======
+  background-color: #f8f9fa;
+  padding: 20px;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+  background-color: #f8f9fa;
+  padding: 20px;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Estilos do conteúdo principal */
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+.tabTitulo{
+  margin: 0 auto;  /*Centraliza o div*/
+  text-align: center; /* Centraliza o conteúdo do div (os botões)*/   
+  color: #004AAD;   
+  font-size: 24px;
+  font-weight:bolder;
+}
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+main {
+  flex: 1; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+hr.linhaSep {
+  border-top: 5px solid burlywood;
+}
+.logo{
+  display:inline-flex;
+  padding: 20px;
+  width: 20%;
+}
+.posCampos{
+  position: absolute;
+  margin: 0 auto;
+  left: 190px;    
+}
+=======
+
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+  text-align: center;
+  /*display:inline;flex-wrap: wrap;*/
+  
+=======
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  margin: 0 auto;
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+}
+
+.feature h3 {
+  margin-top: 0;
+}
+
+.feature p {
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  padding: 30px 20px;
+=======
+  padding: 10px 20px;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+  padding: 10px 20px;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+  background-color: #004AAD;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: #5f9ae7;
+}
+.msgCadastro{
+    
+  text-align: center; 
+  color: green;
+}
+.msgExcluir{   
+  margin: 0 auto; 
+  text-align: center; 
+  color: red;
+  font-size: 36px;
+  font-weight:bolder;
+=======
+  background-color: #004AAD;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+  background-color: #004AAD;
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+}
+
+/* Estilos do rodapé */
+footer {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  font-size: smaller;
+  background-color: #ffff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+/*Estilo form */
+.form{
+  margin: 20px, 0,0,0;
+}
+
+/* Estilo Tabela */
+.tabGeral{    
+  border-collapse: collapse;
+  margin: 0 auto;  /*Centraliza tabela*/
+  font-size: 0.9em;
+  min-width: 1024px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);    
+}
+
+.tabGeral thead tr {
+background-color: #004AAD;
+color: #ffffff;
+text-align: center;
+font-weight: bold;
+}
+
+.tabGeral th, td {
+padding: 12px 15px;
+}
+
+
+.tabGeral tbody tr {
+border-bottom: 1px solid #dddddd; 
+}
+
+.tabGeral tbody tr:nth-of-type(even) { 
+                /* estiliza os elementos que são o enésimo número de filhos de seu elemento pai.*/
+                /* odd: filhos 1,3,2  even: filhos 2, 4, 6  */    
+  background-color: #f3f3f3;
+}
+
+.tabGeral tbody tr:last-of-type { /*aplica o estilo na última linha*/
+border-bottom: 2px solid #004AAD;
+}
+
+.tabGeral th:first-child { width: 70px  }
+.tabGeral th:first-child + th {   text-align: center;}
+.tabGeral th:first-child + th + th {  width: 50px }
+.tabGeral th:first-child + th + th + th {  width: 70px }
+.tabGeral th:first-child + th + th + th + th {  width: 70px }
+
+
+.tabGeral td:first-child { width: 70px  }
+.tabGeral td:first-child + td {   text-align: left;}
+.tabGeral td:first-child + td + td {  width: 50px }
+.tabGeral td:first-child + td + td + td {  width: 70px }
+.tabGeral td:first-child + td + td + td + td {  width: 70px }
+=======
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+<<<<<<< HEAD
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
+=======
+>>>>>>> 049c482726c47e23896a06cad2df1b471ff81740
